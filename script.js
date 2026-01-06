@@ -1,8 +1,7 @@
 const API_KEY = 'NByhOj5elHe9NaUg8F6ZEx52nV5OJZjpXLnn6peY';
 const API_URL = 'https://api.nasa.gov/planetary/apod';
-const cache = {}; // Cache API responses
+const cache = {};
 
-// DOM Elements
 const searchForm = document.getElementById('search-form');
 const searchInput = document.getElementById('search-input');
 const currentImageContainer = document.getElementById('current-image-container');
